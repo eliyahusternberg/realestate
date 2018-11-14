@@ -102,7 +102,7 @@ class User (db.Model):
      Owners_details = db.Column(db.String(100))
      Financing = db.Column(db.Integer(15))
 
-  class Developments(db.Model)
+ class Developments(db.Model)
      id=db.Column(db.Integer,primary_key=True)
      Name = db.Column(db.String(64),index=True)
      Phone_number=db.Column(db.Integer(12))
