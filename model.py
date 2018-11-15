@@ -152,3 +152,5 @@ class User (db.Model):
      Financing_fee = db.Column(db.Integer(15))
      Intrest = db.Column(db.Integer(15))
      Contingency =db.Column(db.Integer(15))
+     Subtotal_development_cost = db.Column(db.Integer(15))
+     Goverment_grants = db.Column(db.Integer(15))
