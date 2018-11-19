@@ -38,7 +38,7 @@ class BuildingProfile(db.model):
      State = db.Column(db.String(25))
      City = db.Column(db.String(20))
      County = db.Column(db.String(25))
-     County =db.Column(db.Ss = "dddtring(20))
+     County =db.Column(db.String(20))
      Type = db.Column(db.String(30))
      Price_buillding_area =db.Column(db.Integer)
      Stories = db.Column(db.Integer)
@@ -46,8 +46,8 @@ class BuildingProfile(db.model):
      Tax = db.Column(db.Integer)
      Sale_date=db.Column(db.Integer)
      Sale_amount = db.Column(db.Integer)
-     minimum_sale_amount
-     maximum_sale_amount
+     minimum_sale_amount = db.comlumn(db.Interger)
+     maximum_sale_amount = db.comlumn(db.Interger)
      Price_per_building_area = db.Column(db.Integer)
      Price_per_unit = db.Column(db.Integer)
      Price_per_square_foot = db.Column(db.Integer)
