@@ -35,10 +35,10 @@ class Buyer(db.Model):
     Notes = Column(db.String(1000))
    
 class BuildingProfile(db.model):
-     States = db.Column(db.String(25))
-     Cities = db.Column(db.String(20))
-     Counties = db.Column(db.String(25))
-     Countries =db.Column(db.Ss = "dddtring(20))
+     State = db.Column(db.String(25))
+     City = db.Column(db.String(20))
+     County = db.Column(db.String(25))
+     County =db.Column(db.Ss = "dddtring(20))
      Type = db.Column(db.String(30))
      Price_buillding_area =db.Column(db.Integer)
      Stories = db.Column(db.Integer)
@@ -79,7 +79,6 @@ class Property(db.Model):
     Reffered = db.Column(db.String(30)index=True)
     Intent=db.Column(db.String(20))
     Notes = Column(db.String(1000))
-   
     State = db.Column(db.String(25))
     City = db.Column(db.String(20))
     County = db.Column(db.String(25))
